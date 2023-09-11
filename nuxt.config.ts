@@ -4,5 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss'
+  ],
+  extends: [
+    'github:Raphsant/nuxt-template',        // GitHub Remote Source
+
   ]
 })
